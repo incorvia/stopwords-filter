@@ -3,6 +3,9 @@
 # Instead, edit Jeweler::Tasks in Rakefile, and run 'rake gemspec'
 # -*- encoding: utf-8 -*-
 
+$:.push File.expand_path("../lib", __FILE__)
+require 'stopwords.rb'
+
 Gem::Specification.new do |s|
   s.name = %q{stopwords-filter}
   s.version = "0.3.0"
